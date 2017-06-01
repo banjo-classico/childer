@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  text-align: left;
+  background-image: url("./images/childer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.tagline {
+font-size: 24px;
+font-weight: 400;
+padding: 50px 80px;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 150px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border: none;
+  margin: 0 20px;
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  width: 240px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.button:hover {
+  color: #1B3F86;
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+  transition: transform .2s;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
