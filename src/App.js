@@ -1,20 +1,39 @@
 import React, { Component } from 'react';
+import classnames from "classnames";
 
 import './App.css';
-import logo from "./images/logo.png";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
         <div className="header">
-          <h1 className="tagline">Quality, second hand children&#39;s clothing.</h1>
-          <img src={logo} className="logo"/>
+          <div className="menu">
+            <div className="menu-item">sign up</div>
+            <div className="menu-item">login</div>
+            <div className="menu-item">help</div>
+          </div>
+          <h1 className="name">childer</h1>
         </div>
-        <div className="main">
-          <button className="button">BLOG</button>
-          <button className="button">SHOP</button>
-          <button className="button">STYLE</button>
+        <div className="main-container">
+          <div className="main">
+            <button className={classnames("who-we-are", "button")}>
+              <div>&nbsp;</div>
+              <span>who we are</span>
+            </button>
+            <button className={classnames("buy-sell", "button")}>
+              <div>&nbsp;</div>
+              <span>buy & sell</span>
+            </button>
+            <button className={classnames("journal", "button")}>
+              <div>&nbsp;</div>
+              <span>journal</span>
+            </button>
+            <button className={classnames("depot", "button")}>
+              <div>&nbsp;</div>
+              <span>depot service</span>
+            </button>
+          </div>
         </div>
       </div>
     );
