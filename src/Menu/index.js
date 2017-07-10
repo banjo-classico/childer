@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import clickOutside from "react-click-outside";
 
+import List from "./components/List";
 import styles from "./menu.css";
 
 const buttons = [
@@ -17,9 +17,6 @@ class Menu extends Component {
   toggleMenu = () => {
     this.setState({ showMenu: !this.state.showMenu })
   }
-  handleClickOutside = () => {
-    this.toggleMenu();
-  }
   render() {
     const { showMenu } = this.state;
     return (
@@ -28,13 +25,7 @@ class Menu extends Component {
         <div className={styles.hamcontainer} onClick={this.toggleMenu} >
         {
           showMenu ?
-            <div className={styles.menu} onClick={this.toggleMenu}>
-              {
-                buttons.map(
-                  b => <a key={Math.random()} href={b.link} className={styles.item}>{b.label}</a>
-                )
-              }
-            </div> :
+            <List buttons={buttons} toggle={this.toggleMenu} /> :
             <div className={styles.hamburger} />
         }
         </div>
@@ -43,4 +34,4 @@ class Menu extends Component {
   }
 }
 
-export default clickOutside(Menu);
+export default Menu;

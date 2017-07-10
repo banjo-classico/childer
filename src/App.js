@@ -5,6 +5,7 @@ import depotImage from "./images/romantic-bokeh-colors.jpg";
 import aboutImage from "./images/abstract-bokeh-hearts.jpg";
 import journalImage from "./images/colorful-autumn-leaves.jpg";
 import Header from "./Header";
+import Footer from "./Footer";
 import MainButton from "./MainButton";
 import styles from './App.css';
 
@@ -22,8 +23,14 @@ class App extends Component {
               backgroundImage={shopImage}
             />
             <MainButton
+            className={styles.sell}
+            label="sell"
+            text={`Latest news and interviews`}
+            backgroundImage={journalImage}
+            />
+            <MainButton
               className={styles.depot}
-              label="depot"
+              label="depot service"
               text={`Don't have time to list your items?/Let us do it for you!`}
               backgroundImage={depotImage}
             />
@@ -33,13 +40,9 @@ class App extends Component {
               text={`Two mamas &/their dreams`}
               backgroundImage={aboutImage}
             />
-            <MainButton
-              className={styles.journal}
-              label="journal"
-              text={`Latest news and interviews`}
-              backgroundImage={journalImage}
-            />
           </div>
+          <div className={styles.subscribe}>Subscribe</div>
+          <Footer />
         </div>
       </div>
     );

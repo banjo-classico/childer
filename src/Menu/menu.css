@@ -5,7 +5,8 @@
   font-size: 21px;
 }
 
-.item, .login {
+.login {
+  color: grey;
   cursor: pointer;
 }
 
@@ -44,32 +45,8 @@
   top: 14px;
 }
 
-.menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 220px;
-  background-color: white;
-  box-shadow: 0 3px 6px rgba(0,0,0,.16);
-  border-radius: 4px;
-  animation: appear .7s forwards;
-}
-
-.item {
-  display: block;
-  color: grey;
-  font-size: 17px;
-  padding: 15px 30px;
-  width: 160px;
-  text-decoration: none;
-}
-
-.item:hover {
-  color: white;
-  background-color: lightgrey;
-}
-
-@keyframes appear {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+@media (max-width: 1023px) {
+  .hamcontainer {
+    display: none;
+  }
 }
