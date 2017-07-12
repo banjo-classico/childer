@@ -49,6 +49,7 @@
     cursor: pointer;
     color: grey;
     font-size: 34px;
+    text-decoration: none;
   }
 
   .container {

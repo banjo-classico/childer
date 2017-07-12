@@ -21,24 +21,28 @@ class App extends Component {
               label="shop"
               text={`Buy and sell preloved children's clothing/& accessories`}
               backgroundImage={shopImage}
+              link="http://www.childer.co.nz"
             />
             <MainButton
-            className={styles.sell}
-            label="sell"
-            text={`Latest news and interviews`}
-            backgroundImage={journalImage}
+              className={styles.sell}
+              label="sell"
+              text={`Latest news and interviews`}
+              backgroundImage={journalImage}
+              link="http://www.childer.co.nz"
             />
             <MainButton
               className={styles.depot}
               label="depot service"
               text={`Don't have time to list your items?/Let us do it for you!`}
               backgroundImage={depotImage}
+              link="http://www.childer.co.nz"
             />
             <MainButton
               className={styles.about}
               label="about us"
               text={`Two mamas &/their dreams`}
               backgroundImage={aboutImage}
+              link="http://www.childer.co.nz"
             />
           </div>
           <div className={styles.subscribe}>Subscribe</div>

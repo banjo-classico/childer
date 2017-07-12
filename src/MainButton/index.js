@@ -4,8 +4,8 @@ import classnames from "classnames";
 
 import styles from "./mainButton.css";
 
-const MainButton = ({ className, text, label, backgroundImage }) => (
-  <button className={classnames(className, styles.button)}>
+const MainButton = ({ className, text, label, backgroundImage, link }) => (
+  <a className={classnames(className, styles.button)} href={link}>
     <div className={styles.container}>
       <div
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -18,7 +18,7 @@ const MainButton = ({ className, text, label, backgroundImage }) => (
     {
       text.split("/").map(t => <div className={styles.text}>{t}</div>)
     }
-  </button>
+  </a>
 )
 
 export default MainButton;
