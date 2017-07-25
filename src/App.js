@@ -45,12 +45,21 @@ class App extends Component {
               link="http://www.childer.co.nz"
             />
           </div>
-          <div className={styles.subscribe}>Subscribe</div>
+          <div id="mc_embed_signup">
+          <form action="//childer.us16.list-manage.com/subscribe/post?u=cdf1ed608a773aeb1b8ce2791&amp;id=24f41e3059" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+          	  <label for="mce-EMAIL">Subscribe to our mailing list</label>
+        	    <input type="email" value="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+              <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+            </div>
+          </form>
+          </div>
           <Footer />
         </div>
       </div>
     );
   }
 }
+// <div style="position: absolute; left: -5000px;" ariaHidden="true"><input type="text" name="b_cdf1ed608a773aeb1b8ce2791_24f41e3059" tabIndex="-1" value=""></div>
 
 export default App;
