@@ -4,9 +4,9 @@ import List from "./components/List";
 import styles from "./menu.css";
 
 const buttons = [
-  { label: "sign up", link: "" },
+  { label: "sign up", link: "http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false" },
   { label: "shop", link: "http://www.childershop.co.nz" },
-  { label: "depot service", link: "" },
+  { label: "depot service", link: "http://www.childershop.co.nz/user/policy/return%20policy" },
 ]
 
 class Menu extends Component {
@@ -20,7 +20,7 @@ class Menu extends Component {
     const { showMenu } = this.state;
     return (
       <div className={styles.container}>
-        <div className={styles.login}>login</div>
+        <a href="http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false" className={styles.login}>login</a>
         <div className={styles.hamcontainer} onClick={this.toggleMenu} >
         {
           showMenu ?

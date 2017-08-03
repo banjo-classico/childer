@@ -10,6 +10,7 @@ const Header = () => (
       <img src={logoUrl} className={styles.logo} alt="childer" />
       <Menu />
     </div>
+    <div className={styles.subtitle}>{"Buy and sell children's"}<br />{"preloved clothing and accessories"}</div>
     <div className={styles.header}></div>
   </div>
 )
