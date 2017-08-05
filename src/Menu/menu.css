@@ -47,6 +47,12 @@
 }
 
 @media (max-width: 1023px) {
+  .container {
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
   .hamcontainer {
     display: none;
   }
