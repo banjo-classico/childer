@@ -51,7 +51,7 @@
   }
 
   .sell>div:nth-child(2) {
-    top: 120px;
+    top: 150px;
     left: -50px;
     transform: translate(0, 0);
   }
@@ -64,7 +64,7 @@
   }
 
   .depot>div:nth-child(2) {
-    width: 240px;
+    width: 295px;
     top: 60px;
     left: calc(100% - 90px);
     transform: translate(0%);
@@ -78,9 +78,9 @@
   }
 
   .about>div:nth-child(2) {
-    width: 155px;
+    width: 210px;
     top: 100px;
-    left: -70px;
+    left: -105px;
     transform: translate(0%);
   }
 
