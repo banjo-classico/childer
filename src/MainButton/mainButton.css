@@ -29,6 +29,14 @@
   transition: all .3s ease-in-out;
 }
 
+.flip {
+  composes: image;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 .label {
   position: absolute;
   top: 50%;
@@ -74,5 +82,10 @@
   .image:hover{
     transform: scale(1.1);
     transition: all .3s ease-in-out;
+  }
+  .flip:hover {
+    transform: scaleY(1.1) scaleX(-1.1);
+    transition: all .3s ease-in-out;
+
   }
 }

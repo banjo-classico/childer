@@ -4,12 +4,12 @@ import classnames from "classnames";
 
 import styles from "./mainButton.css";
 
-const MainButton = ({ className, text, label, backgroundImage, link }) => (
+const MainButton = ({ className, text, label, backgroundImage, link, flip }) => (
   <a className={classnames(className, styles.button)} href={link}>
     <div className={styles.container}>
       <div
         style={{ backgroundImage: `url(${backgroundImage})` }}
-        className={styles.image}
+        className={classnames({ [styles.image]: !flip }, { [styles.flip]: flip })}
       >
         &nbsp;
       </div>

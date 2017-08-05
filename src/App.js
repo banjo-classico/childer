@@ -22,6 +22,7 @@ class App extends Component {
               text={`Find things you love & buy preloved children's/clothing & accessories for a fraction of the/retail price`}
               backgroundImage={buyImage}
               link="http://www.childershop.co.nz"
+              flip
             />
             <MainButton
               className={styles.sell}
@@ -43,6 +44,7 @@ class App extends Component {
               text={`Two mamas &/their dreams`}
               backgroundImage={aboutImage}
               link="/about"
+              flip
             />
           </div>
           <div className={styles.latestnews}>
