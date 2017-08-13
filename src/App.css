@@ -13,6 +13,12 @@
   padding: 20px;
 }
 
+.maininner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .latestnews {
   border-top: 1px solid lightgrey;
   padding: 0 0 10px;
@@ -35,6 +41,15 @@
   display: inline-block;
   margin: 0 0 20px;
   vertical-align: top;
+}
+
+.inputbutton {
+  font-size: 15px;
+  color: white;
+  border-radius: 3px;
+  background-color: #ABB0B2;
+  border: none;
+  height: 32px;
 }
 
 .newsheading {
@@ -62,8 +77,6 @@
     padding: 0;
   }
   .maininner {
-    display: flex;
-    flex-direction: column;
     max-width: 550px;
     width: 550px;
   }
