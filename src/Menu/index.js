@@ -7,6 +7,7 @@ const buttons = [
   { label: "sign up", link: "http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false" },
   { label: "shop", link: "http://www.childershop.co.nz" },
   { label: "depot service", link: "http://www.childershop.co.nz/user/policy/return%20policy" },
+  { label: "about us", link: "http://www.childershop.co.nz/user/policy/about%20us " },
 ]
 
 class Menu extends Component {

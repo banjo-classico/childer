@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import clickOutside from "react-click-outside";
 
 import styles from "./list.css";
@@ -16,7 +15,6 @@ class List extends Component {
             b => <a key={Math.random()} href={b.link} className={styles.item}>{b.label}</a>
           )
         }
-        <Link to="/about" className={styles.item}>about us</Link>
       </div>
     );
   }

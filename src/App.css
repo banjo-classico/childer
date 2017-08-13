@@ -57,35 +57,34 @@
 
 @media (min-width: 1024px) {
   .main {
-    display: grid;
-    grid-template-columns: repeat(12, 6%);
-    grid-template-rows: repeat(20, 5% );
-    /*grid-gap: 10px 3%;*/
-    justify-content: center;
-    margin: 60px auto;
-    max-width: 1450px;
-    padding: 20px 0;
+    width: 100%;
+    margin: 80px 0 60px;
+    padding: 0;
+  }
+  .maininner {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 550px;
   }
 
   .buy {
-    grid-column: 1/8;
-    grid-row: 1/5;
     width: 420px;
     height: 380px;
+    align-self: flex-start;
   }
 
   .buy>div:nth-child(2) {
     top: 250px;
     width: 100px;
-    left: calc(100% - 50px);
+    left: calc(100% - 82px);
     transform: translate(0, 0);
   }
 
   .sell {
-    grid-column: 8/14;
-    grid-row: 3/8;
     width: 400px;
     height: 360px;
+    align-self: flex-end;
   }
 
   .sell>div:nth-child(2) {
@@ -96,24 +95,21 @@
   }
 
   .depot {
-    grid-column: 1/6;
-    grid-row: 10/15;
     width: 300px;
     height: 390px;
   }
 
   .depot>div:nth-child(2) {
-    width: 295px;
+    width: 310px;
     top: 60px;
-    left: calc(100% - 90px);
+    left: calc(100% - 160px);
     transform: translate(0%);
   }
 
   .about {
-    grid-column: 7/14;
-    grid-row: 12/16;
     height: 310px;
     width: 460px;
+    align-self: flex-end;
   }
 
   .about>div:nth-child(2) {
@@ -124,11 +120,42 @@
   }
 
   .latestnews {
-    padding: 0;
+    padding: 0 0 20px;
+  }
+
+  .inputcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .input {
+    margin: 0;
+    width: 250px;
+    outline: none;
+    background: #F9F9F9;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .inputlabel {
+    color: grey;
     margin: 0 20px 0 0;
-    width: 350px;
+    padding: 10px 0 0;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  .inputbutton {
+    font-size: 15px;
+    color: grey;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    border: 1px solid #ABB0B2;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 32px;
+    cursor: pointer;
   }
 }

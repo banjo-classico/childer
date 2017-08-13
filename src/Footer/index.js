@@ -8,7 +8,7 @@ const Footer = () => (
       <div className={styles.section}>
         <div className={styles.label}>help</div>
         <a href="http://www.childershop.co.nz/user/policy/faq" className={styles.link}>FAQs</a>
-        <a href="https://drive.google.com/file/d/0B1uxDOhcNFJDX1BvYWUxbFVrUHc/view?usp=sharing" className={styles.link}>seller guides</a>
+        <a href="https://drive.google.com/file/d/0B1uxDOhcNFJDX1BvYWUxbFVrUHc/view?usp=sharing" className={styles.link}>seller guidelines</a>
         <a href="http://www.childershop.co.nz/user/policy/terms%20of%20service" className={styles.link}>terms of service</a>
       </div>
       <div className={styles.section}>

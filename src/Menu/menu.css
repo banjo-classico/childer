@@ -2,13 +2,14 @@
   position: absolute;
   top: 15px;
   right: 30px;
-  font-size: 21px;
+  font-size: 14px;
 }
 
 .login {
   color: grey;
   text-decoration: none;
   cursor: pointer;
+  width: 170px;
 }
 
 .hamcontainer {
@@ -19,7 +20,7 @@
 
 .hamburger {
   position: relative;
-  width: 25px;
+  width: 33px;
   height: 2px;
   background-color: lightgrey;
   margin: 10px 0;
@@ -29,7 +30,7 @@
 .hamburger:before {
   content: "";
   display: block;
-  width: 25px;
+  width: 33px;
   height: 2px;
   background-color: lightgrey;
   position: absolute;
@@ -39,7 +40,7 @@
 .hamburger:after {
   content: "";
   display: block;
-  width: 25px;
+  width: 33px;
   height: 2px;
   background-color: lightgrey;
   position: absolute;
