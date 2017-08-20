@@ -115,8 +115,9 @@
   .depot>div:nth-child(2) {
     width: 180px;
     top: 25px;
-    left: calc(100% - 100px);
+    left: calc(100% - 75px);
     transform: translate(0%);
+    text-align: left;
   }
 
   .about {
@@ -132,7 +133,7 @@
   .about>div:nth-child(2) {
     width: 130px;
     top: 50px;
-    left: -100px;
+    left: -105px;
     transform: translate(0%);
     text-align: left;
   }

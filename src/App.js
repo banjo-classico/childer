@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
+import { injectGlobal } from "styled-components";
 
 import buyImage from "./images/buy.jpg";
 import depotImage from "./images/depot.jpg";
 import aboutImage from "./images/about.jpg";
 import sellImage from "./images/sell.jpg";
+import fontTTF from "./fonts/GothamRounded-Medium.ttf"
+import fontOTF from "./fonts/GothamRounded-Medium.otf"
+import fontWOFF from "./fonts/GothamRounded-Medium.woff"
+import fontEOT from "./fonts/GothamRounded-Medium.eot"
 import Header from "./Header";
 import Footer from "./Footer";
 import MainButton from "./MainButton";
 import styles from './App.css';
+
+injectGlobal`
+  @font-face {
+    font-family: 'GothamRounded-Medium';
+    src: url(${fontTTF}) format('truetype'), url(${fontEOT}?#iefix) format('embedded-opentype'), url(${fontOTF}) format('opentype'), url(${fontWOFF}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+`;
 
 class App extends Component {
   state = {
