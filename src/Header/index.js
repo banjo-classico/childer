@@ -11,7 +11,7 @@ const Header = () => (
       <div className={styles.overlay} />
       <Menu />
     </div>
-    <div className={styles.subtitle}>{"buy & sell children's"}<br />{"preloved clothing & accessories"}</div>
+    <div className={styles.subtitle}>{"buy & sell preloved"}<br />{"children's clothing & accessories"}</div>
     <div className={styles.header}></div>
   </div>
 )

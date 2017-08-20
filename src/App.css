@@ -20,7 +20,7 @@
 }
 
 .latestnews {
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #F0F0F0;
   padding: 0 0 10px;
   padding: 20px;
 }
@@ -56,7 +56,7 @@
   text-align: center;
   font-size: 30px;
   color: grey;
-  margin: 25px 0 15px;
+  margin: 35px 0 5px;
 }
 
 .subscribe {
@@ -88,7 +88,7 @@
   }
 
   .buy>div:nth-child(2) {
-    top: 250px;
+    top: 265px;
     width: 100px;
     left: calc(100% - 82px);
     transform: translate(0, 0);
@@ -101,8 +101,8 @@
   }
 
   .sell>div:nth-child(2) {
-    top: 150px;
-    left: -50px;
+    top: 170px;
+    left: -75px;
     width: 100px;
     transform: translate(0, 0);
   }
@@ -113,27 +113,32 @@
   }
 
   .depot>div:nth-child(2) {
-    width: 310px;
-    top: 60px;
-    left: calc(100% - 160px);
+    width: 180px;
+    top: 25px;
+    left: calc(100% - 100px);
     transform: translate(0%);
   }
 
   .about {
     height: 310px;
-    width: 460px;
+    width: 425px;
     align-self: flex-end;
   }
 
+  .about>div>:first-child {
+    background-position: left;
+  }
+
   .about>div:nth-child(2) {
-    width: 210px;
-    top: 100px;
-    left: -105px;
+    width: 130px;
+    top: 50px;
+    left: -100px;
     transform: translate(0%);
+    text-align: left;
   }
 
   .latestnews {
-    padding: 0 0 20px;
+    padding: 0 0 35px;
   }
 
   .inputcontainer {
@@ -144,7 +149,7 @@
 
   .input {
     margin: 0;
-    width: 250px;
+    width: 320px;
     outline: none;
     background: #F9F9F9;
     border-right: none;
@@ -153,10 +158,13 @@
   }
 
   .inputlabel {
+    width: 380px;
+    font-size: 14px;
     color: grey;
-    margin: 0 20px 0 0;
-    padding: 10px 0 0;
+    margin: 0 auto 10px;
+    padding: 0;
     font-family: 'Varela Round', sans-serif;
+    text-align: left;
   }
 
   .inputbutton {
