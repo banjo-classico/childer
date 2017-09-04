@@ -72,7 +72,7 @@ class App extends Component {
           </div>
           <div className={styles.latestnews}>
             <div className={styles.newsheading}>stay in touch</div>
-            <div id="mc_embed_signup">
+            <div className={styles.signup}>
             <form action="//childer.us16.list-manage.com/subscribe/post?u=cdf1ed608a773aeb1b8ce2791&amp;id=24f41e3059" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
               <label for="mce-EMAIL" className={styles.inputlabel}>sign up to receive our latest newsletter, including what&#39;s new at childer, inspiration, & more</label>
               <div className={styles.inputcontainer}>
