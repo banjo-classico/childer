@@ -4,10 +4,10 @@ import List from "./components/List";
 import styles from "./menu.css";
 
 const buttons = [
-  { label: "sign up", link: "http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false" },
+  { label: "sign up", link: "https://www.childershop.co.nz/en/signup" },
   { label: "shop", link: "http://www.childershop.co.nz" },
-  { label: "depot service", link: "http://www.childershop.co.nz/user/policy/return%20policy" },
-  { label: "about us", link: "http://www.childershop.co.nz/user/policy/about%20us " },
+  { label: "depot service", link: "https://www.childershop.co.nz/en/infos/how_to_use" },
+  { label: "about us", link: "https://www.childershop.co.nz/en/infos/about" },
 ]
 
 class Menu extends Component {
@@ -21,7 +21,7 @@ class Menu extends Component {
     const { showMenu } = this.state;
     return (
       <div className={styles.container}>
-        <a href="http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false" className={styles.login}>login</a>
+        <a href="https://www.childershop.co.nz/en/login" className={styles.login}>login</a>
         <div className={styles.hamcontainer} onClick={this.toggleMenu} >
         {
           showMenu ?

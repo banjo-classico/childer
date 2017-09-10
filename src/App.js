@@ -51,21 +51,21 @@ class App extends Component {
                 label="sell"
                 text={`Sell your preloved kids cltohing &/accessories`}
                 backgroundImage={sellImage}
-                link="http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=true "
+                link="https://www.childershop.co.nz/en/signup"
               />
               <MainButton
                 className={styles.depot}
                 label="depot service"
                 text={`Don't have time to list your items?/Let us do it for you!`}
                 backgroundImage={depotImage}
-                link="http://www.childershop.co.nz/user/policy/return%20policy"
+                link="https://www.childershop.co.nz/en/infos/how_to_use"
               />
               <MainButton
                 className={styles.about}
                 label="about us"
                 text={`More about childer and its founders`}
                 backgroundImage={aboutImage}
-                link="http://www.childershop.co.nz/user/policy/about%20us "
+                link="https://www.childershop.co.nz/en/infos/about"
                 flip
               />
             </div>

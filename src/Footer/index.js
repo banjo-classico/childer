@@ -7,13 +7,12 @@ const Footer = () => (
     <div className={styles.inner}>
       <div className={styles.section}>
         <div className={styles.label}>help</div>
-        <a href="http://www.childershop.co.nz/user/policy/faq" className={styles.link}>FAQs</a>
         <a href="https://drive.google.com/open?id=0B4DUg_PheMhobEdxLVNGaFBtSVk" className={styles.link}>seller guidelines</a>
-        <a href="http://www.childershop.co.nz/user/policy/terms%20of%20service" className={styles.link}>terms of service</a>
+        <a href="https://www.childershop.co.nz/en/infos/terms" className={styles.link}>terms of service</a>
       </div>
       <div className={styles.section}>
         <div className={styles.label}>contact</div>
-        <a href="http://www.childershop.co.nz/user/policy/contact%20us" className={styles.link}>drop us a line</a>
+        <a href="https://www.childershop.co.nz/en/user_feedbacks/new" className={styles.link}>drop us a line</a>
       </div>
       <div className={styles.section}>
         <div className={styles.label}>connect</div>
