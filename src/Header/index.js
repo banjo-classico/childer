@@ -7,12 +7,16 @@ import styles from "./header.css";
 const Header = () => (
   <div>
     <div className={styles.container}>
-      <a href="http://www.childershop.co.nz"><img src={logoUrl} className={styles.logo} alt="childer" /></a>
+      <a href="http://www.childershop.co.nz" className={styles.link}>
+        <img src={logoUrl} className={styles.logo} alt="childer" />
+      </a>
       <div className={styles.overlay} />
       <Menu />
     </div>
     <div className={styles.subtitle}>{"buy & sell preloved"}<br />{"children's clothing & accessories"}</div>
-    <div className={styles.header}></div>
+    <a href="http://www.childershop.co.nz">
+      <div className={styles.header}></div>
+    </a>
   </div>
 )
 
