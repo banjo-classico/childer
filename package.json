@@ -1,6 +1,9 @@
 {
   "name": "childer",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.0.0"
+  },
   "private": true,
   "homepage": "http://www.childer.co.nz",
   "dependencies": {
