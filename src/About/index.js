@@ -34,7 +34,7 @@ const About = () => (
           Got some great kids stuff stashed away that you&#39;ve been meaning to get rid off? Sign up as a seller and you can easily list your items on childer.
           Simply visit our <a href="http://www.childershop.co.nz/user/marketplace/customlogin?isSeller=false">sign up page</a> to join and start selling.
           Information on fees and more can be found in our <a href="http://www.childershop.co.nz/user/policy/terms%20of%20service">Terms of Service</a>,
-          and make sure you check out our <a href="https://drive.google.com/file/d/0B1uxDOhcNFJDX1BvYWUxbFVrUHc/view?usp=sharing">Seller Guidelines</a> for details of what we can accept for sale and handy tips on how to make the most out of your listing.</div>
+          and make sure you check out our <a href="https://drive.google.com/file/d/0B4DUg_PheMhoUnkyU0V1QUpBMk0/view?usp=sharing">Seller Guidelines</a> for details of what we can accept for sale and handy tips on how to make the most out of your listing.</div>
       </div>
       <div className={styles.section}>
         <h3 className={styles.label}>Got no time to trawl through your kids&#39; old stuff?</h3>

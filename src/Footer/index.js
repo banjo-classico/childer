@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={styles.inner}>
       <div className={styles.section}>
         <div className={styles.label}>help</div>
-        <a href="https://drive.google.com/open?id=0B4DUg_PheMhobEdxLVNGaFBtSVk" className={styles.link}>seller guidelines</a>
+        <a href="https://drive.google.com/file/d/0B4DUg_PheMhoUnkyU0V1QUpBMk0/view?usp=sharing" className={styles.link}>seller guidelines</a>
         <a href="https://www.childershop.co.nz/en/infos/terms" className={styles.link}>terms of service</a>
         <a href="https://www.childershop.co.nz/en/infos/privacy" className={styles.link}>privacy policy</a>
       </div>
