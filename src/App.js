@@ -49,7 +49,7 @@ class App extends Component {
               <MainButton
                 className={styles.sell}
                 label="sell"
-                text={`Sell your preloved kids cltohing &/accessories`}
+                text={`Sell your preloved kids clothing &/accessories`}
                 backgroundImage={sellImage}
                 link="https://www.childershop.co.nz/en/signup"
               />
