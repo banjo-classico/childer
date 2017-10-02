@@ -27,6 +27,7 @@
 
 .input {
   /*font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;*/
+  font-family: 'Cardo', serif;
   font-size: 15px;
   border: 1px solid #ABB0B2;
   -webkit-border-radius: 3px;
@@ -44,6 +45,7 @@
 }
 
 .inputbutton {
+  font-family: 'Cardo', serif;
   font-size: 15px;
   color: white;
   border-radius: 3px;
@@ -170,6 +172,7 @@
     margin: 0 auto 15px;
     padding: 0;
     text-align: left;
+    font-family: 'Cardo', serif;
   }
 
   .inputbutton {
