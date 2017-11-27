@@ -10,6 +10,7 @@ const Footer = () => (
         <a href="https://drive.google.com/file/d/0B1uxDOhcNFJDWTFaSHFuMUw0NkE/view?usp=sharing" className={styles.link}>seller guidelines</a>
         <a href="https://www.childershop.co.nz/en/infos/terms" className={styles.link}>terms of service</a>
         <a href="https://www.childershop.co.nz/en/infos/privacy" className={styles.link}>privacy policy</a>
+        <a href="http://www.childershop.co.nz/#faq-popup" className={styles.link}>FAQs</a>
       </div>
       <div className={styles.section}>
         <div className={styles.label}>contact</div>
