@@ -27,6 +27,7 @@ const Header = () => {
           <a href="https://www.childershop.co.nz/en/login" className={styles.login}>Log in</a>
         </div>
       </div>
+      <img className={styles.whitelogo} src={whiteLogo} alt="childer" />
       <div className={styles.subtitle}>{"buy & sell preloved"}<br />{"children's clothing & accessories"}</div>
       <a href="http://www.childershop.co.nz">
         <div className={styles.header}></div>
