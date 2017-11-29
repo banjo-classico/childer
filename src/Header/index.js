@@ -13,7 +13,7 @@ const buttons = [
 ]
 
 const Header = () => {
-  const isMobile = window.innerWidth < 750;
+  const isMobile = window.innerWidth < 1024;
   return (
     <div>
       <div className={styles.container}>
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
       </div>
       <img className={styles.whitelogo} src={whiteLogo} alt="childer" />
-      <div className={styles.subtitle}>{"buy & sell preloved"}<br />{"children's clothing & accessories"}</div>
+      <div className={styles.subtitle}>{"buy & sell preloved children's clothing &"}<br />{"accessories online"}</div>
       <a href="http://www.childershop.co.nz">
         <div className={styles.header}></div>
       </a>
