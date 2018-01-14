@@ -27,8 +27,12 @@ const Header = () => {
           <a href="https://www.childershop.co.nz/en/login" className={styles.login}>Log in</a>
         </div>
       </div>
-      <img className={styles.whitelogo} src={whiteLogo} alt="childer" />
-      <div className={styles.subtitle}>{"buy & sell preloved children's clothing &"}<br />{"accessories online"}</div>
+      <a href="http://www.childershop.co.nz">
+        <img className={styles.whitelogo} src={whiteLogo} alt="childer" />
+      </a>
+      <a href="http://www.childershop.co.nz">
+        <div className={styles.subtitle}>{"buy & sell preloved children's clothing &"}<br />{"accessories online"}</div>
+      </a>
       <a href="http://www.childershop.co.nz">
         <div className={styles.header}></div>
       </a>
