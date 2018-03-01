@@ -12,15 +12,15 @@ const buttons = [
   { label: "FAQs", link: "http://www.childershop.co.nz/#faq-popup" },
 ]
 
+// <div className={styles.overlay} />
 const Header = () => {
   const isMobile = window.innerWidth < 1024;
   return (
     <div>
       <div className={styles.container}>
         <a href="http://www.childershop.co.nz" className={styles.link}>
-          <img src={logoUrl} className={styles.logo} alt="childer" />
+          <img src={whiteLogo} className={styles.logo} alt="childer" />
         </a>
-        <div className={styles.overlay} />
         {!isMobile && <List buttons={buttons} />}
         <div className={styles.loginsignup}>
           <a href="https://www.childershop.co.nz/en/signup" className={styles.login}>Sign up</a>
@@ -33,7 +33,7 @@ const Header = () => {
       <a href="http://www.childershop.co.nz">
         <div className={styles.subtitle}>{"buy & sell preloved children's clothing &"}<br />{"accessories online"}</div>
       </a>
-      <a href="http://www.childershop.co.nz">
+      <a href="http://www.childershop.co.nz" className={styles.headerwrap}>
         <div className={styles.header}></div>
       </a>
       {isMobile && <List buttons={buttons} />}
